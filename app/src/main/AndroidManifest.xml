@@ -10,7 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MapTutorialActivity"></activity>
+        <activity android:name=".user.UserActivity"></activity>
+        <activity android:name=".choose.ChooseItemActivity" />
+        <activity android:name=".choose.ChooseMenuItemActivity" />
+        <activity android:name=".choose.ChooseActivity" />
+        <activity android:name=".user.signup.SignUpActivity" />
+        <activity android:name=".user.login.LoginActivity" />
+        <activity android:name=".MapTutorialActivity" />
 
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
